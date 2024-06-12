@@ -1,0 +1,8 @@
+config {
+    type: "view",
+    name: "targeted_users",
+    description: "Table with a sub selection of targeted users",
+    tags: ["preferered_users"]
+}
+
+SELECT * from ${ref("overriden_name")}

@@ -1,0 +1,7 @@
+config {
+    type: "operations",
+    tags: ["preferered_users"],
+    dependencies: ["overriden_name"]
+}
+
+Delete from dataform.overriden_name where user_id = "fdetywgvcw"
