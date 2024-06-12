@@ -1,5 +1,5 @@
 config {
-    type: "view",
+    type: "table",
     name: "overriden_name",
     columns: {
         user_id: docs.user_id,

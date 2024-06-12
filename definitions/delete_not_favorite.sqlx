@@ -4,4 +4,8 @@ config {
     dependencies: ["overriden_name"]
 }
 
-Delete from dataform.overriden_name where user_id = "fdetywgvcw"
+DELETE
+FROM
+  ${ref("overriden_name")}
+WHERE
+  user_id = "fdetywgvcw"
