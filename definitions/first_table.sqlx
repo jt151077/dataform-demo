@@ -6,4 +6,4 @@ config {
 }
 
 SELECT
-  2 AS test
+  3 AS test
